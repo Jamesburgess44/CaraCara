@@ -79,3 +79,174 @@ nav li a{
     margin-left: 2em;
     margin-right: 2em;
 }
+.home {
+    background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.homestr_container{
+    color: white;
+    margin-left: 2em;
+    font-size: xx-large;
+    font-family: 'Segoe UI';
+    
+}
+
+.homestr2_container{
+    color: white;
+    margin-top: 8em;
+    margin-right: 2em;
+    font-size: xx-large;
+    text-align: right;
+}
+
+#hometxt_right{
+    margin-right: 3em;
+}
+
+.about {
+    padding-top: 40px;
+}
+
+.about img {
+    float: left;
+    width: 350px;
+    height: 490px;
+    margin: 30px;
+}
+
+#float_right {
+    float: right;
+    width: 460px;
+    height: 608px;
+    margin-right: 225px;
+}
+
+#about_p1 {
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#about_p2 {
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 500px;
+
+}
+#about_p3 {
+    width: 450px;
+    margin-left: 500px;
+
+}
+
+.products{
+    margin-top: 12rem;
+}
+
+.productdetails{
+    margin-top: 4rem;
+}
+
+
+.product_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.product_container p{
+    width: 300px;
+    font-size: 13px;
+}
+
+.product_container a{
+    color:#bf7631;
+    font-size: 15px;
+}
+
+.product_container button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.product_container span{
+    padding-left: 60px;
+}
+
+.productdetails_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 175px;
+    padding-top: 40px;
+    margin-left:300px;
+    padding-bottom: 100px;
+}
+
+.productdetails_container p{
+    width: 500px;
+    font-size: 20px;
+}
+
+.productdetails_container span{
+    padding-left: 200px;
+}
+
+
+.contacts{
+    margin-top: 10rem;
+}
+
+.form_container{
+    padding-top: 20px;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.form_container button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.email input{
+    padding: 1px 250px;
+}
+.message input{
+    padding: 80px 250px;
+}
+
+footer{
+    background-color:  #bf7631;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem;
+}
+
+.footer_container_img{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.footer_container_img img{
+    height: 50px;
+}
+
+.footer_container_words{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
